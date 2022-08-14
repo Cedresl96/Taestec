@@ -1,0 +1,26 @@
+*{
+    margin:auto;
+    font-family: 'roboto', sans-serif;
+}
+.nav-container {
+    background-color: rgb(61, 61, 61);
+    height: 15vh;
+
+}
+.logo { 
+    padding: 2vh 5vh 2vh 5vh; 
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 5vh;
+    
+}
+.logo a {
+    color: rgb(247, 247, 58);
+}
+li {
+    list-style: none;
+    display: inline-flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
