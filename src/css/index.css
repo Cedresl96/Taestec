@@ -2,25 +2,31 @@
     margin:auto;
     font-family: 'roboto', sans-serif;
 }
-.nav-container {
+/* Estilos del header*/
+.header-container {
     background-color: rgb(61, 61, 61);
-    height: 15vh;
+    height: 13vh;
 
 }
-.logo { 
+.header-logo { 
     padding: 2vh 5vh 2vh 5vh; 
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 5vh;
-    
 }
-.logo a {
+.header-logo , .header-logo a{
+    text-decoration: none;
     color: rgb(247, 247, 58);
 }
-li {
+.header-menu{
     list-style: none;
-    display: inline-flex;
+   
+    
 }
-a {
+.header-a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-size: 5vh;
+}
+.header-a:hover {
+    font-size: 6vh;
 }
