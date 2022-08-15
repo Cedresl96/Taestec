@@ -1,0 +1,32 @@
+*{
+    margin:auto;
+    font-family: 'roboto', sans-serif;
+}
+/* Estilos del header*/
+.header-container {
+    background-color: rgb(61, 61, 61);
+    height: 13vh;
+
+}
+.header-logo { 
+    padding: 2vh 5vh 2vh 5vh; 
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 5vh;
+}
+.header-logo , .header-logo a{
+    text-decoration: none;
+    color: rgb(247, 247, 58);
+}
+.header-menu{
+    list-style: none;
+   
+    
+}
+.header-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+}
+.header-a:hover {
+    font-size: 6vh;
+}
