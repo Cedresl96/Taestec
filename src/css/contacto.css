@@ -1,21 +1,39 @@
-*{
+*
+{
     margin:auto;
     font-family: 'roboto', sans-serif;
+    overflow-x: hidden;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: auto;
+}
+
 /* Estilos del header*/
 .header-container {
-    background-color: rgb(61, 61, 61);
+    width: 100vw;
+    background-color: rgb(34, 21, 81);
     height: 13vh;
-
+    display: flex;
+    position: fixed;
+    box-shadow: 12vh 0vh 20vh;
+    
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
 }
 .header-logo { 
     padding: 2vh 5vh 2vh 5vh; 
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 5vh;
+    margin: auto;
+    justify-content: left;
 }
 .header-logo , .header-logo a{
     text-decoration: none;
-    color: rgb(247, 247, 58);
+    color: rgb(0, 169, 224);
 }
 .header-menu{
     list-style: none;
@@ -25,8 +43,10 @@
 .header-a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 5vh;
+    font-size: 3vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
 }
 .header-a:hover {
-    font-size: 6vh;
+    font-size: 4vh;
 }
